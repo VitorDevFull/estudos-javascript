@@ -7,12 +7,11 @@ function exibirData1() {
 }
 
 const d2 = 23;
-const m2= 12;
+const m2 = 12;
 const a2 = 2022;
 
 function exibirData2() {
-    
-
+    console.log(`${d2}/${m2}/${a2}`);
 }
 
 exibirData1();

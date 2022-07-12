@@ -1,7 +1,6 @@
-// Parâmetro (Nota) -> Retorno (conceito)
+// Parâmetro (Nota) -> Retorno (Conceito)
 
 function notaParaConceito(nota) {
-    
     switch(Math.ceil(nota)) {
         case 10: return 'A+';
         case 9: return 'A';
@@ -13,9 +12,10 @@ function notaParaConceito(nota) {
         case 3: return 'D';
         case 2: return 'E+';
         case 1: return 'E';
-        case 0: return 'F'; 
+        case 0: return 'F';
         default: return null;
     }
 }
-console.log(`o conceito do Bruno é ${notaParaConceito(9.2)}`)
-console.log(`o conceito do Laura é ${notaParaConceito(8.9)}`)
+
+console.log(`O conceito do Bruno é ${notaParaConceito(6.001)}`)
+console.log(`O conceito da Laura é ${notaParaConceito(8.9)}`)
