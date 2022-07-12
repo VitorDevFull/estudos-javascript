@@ -1,7 +1,7 @@
 # Estudos JavaScript
 Repositório criado para estudos em JavaScript
 
-## Listagem de alguns fundamentos de programação
+## Exemplos de fundamentos de programação
 
 1. **STRINGS** - Em JavaScript, Strings são valores compostos de texto e podem conter letras, números, símbolos, pontuação e até emojis!
 
